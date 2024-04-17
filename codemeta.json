@@ -1,0 +1,50 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Financial mathematics",
+    "author": [
+        {
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "PACM, Princeton University"
+            },
+            "email": "mustapha@math.princeton.edu",
+            "familyName": "Mustapha",
+            "givenName": "Scander"
+        },
+        {
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "CERMICS, Ecole des Ponts ParisTech"
+            },
+            "email": "julien.guyon@enpc.fr",
+            "familyName": "Guyon",
+            "givenName": "Julien"
+        }
+    ],
+    "codeRepository": "git+https://github.com/intermet/neural-spx-vix-calibration-sh",
+    "dateCreated": "2023-04-17",
+    "dateModified": "2023-04-17",
+    "datePublished": "2023-04-17",
+    "description": "Companion code for the paper [Neural joint S\\&P 500/VIX smile calibration]\nAvailable at SSRN 4309576.\n",
+    "keywords": [
+        "volatility",
+        "calibration",
+        "joint",
+        "SPX",
+        "VIX"
+    ],
+    "license": "https://spdx.org/licenses/MIT",
+    "name": "Neural SPX-VIX calibration",
+    "operatingSystem": "linux",
+    "programmingLanguage": "python",
+    "softwareRequirements": [
+        "python 3.6",
+        "torch 1.13.0",
+        "torchsde 0.2.5"
+    ],
+    "version": "1.0.0",
+    "referencePublication": " http://dx.doi.org/10.2139/ssrn.4309576 "
+}
